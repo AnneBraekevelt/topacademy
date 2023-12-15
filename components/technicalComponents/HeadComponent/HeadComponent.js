@@ -43,7 +43,7 @@ export default class HeadComponent extends Component {
 				loaded: document.readyState === "complete"
 			});
 		});
-		hotjar.initialize(3784192, 6);
+		hotjar.initialize(3796853, 6);
 	}
 
 	render() {
