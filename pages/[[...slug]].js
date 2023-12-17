@@ -10,9 +10,9 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.colorcode",
       "person.colorcode",
       "product.colorcode",
-      "ourexperience.colorcode",
       "course.teachers",
       "course.products",
+      "blog.colorcode",
       "list.elements"
     ]
   }, preview);
@@ -37,9 +37,9 @@ export async function getStaticProps({ params }) {
       "course.colorcode",
       "person.colorcode",
       "product.colorcode",
-      "ourexperience.colorcode",
       "course.teachers",
       "course.products",
+      "blog.colorcode",
       "list.elements"
     ]
   };

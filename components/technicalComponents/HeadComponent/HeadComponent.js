@@ -51,7 +51,7 @@ export default class HeadComponent extends Component {
 		return <>
 			<Head>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 				<meta lang="en" />
 				<link rel="icon" href="/images/logo/favicon@32x.png" />
