@@ -60,7 +60,7 @@ export default class HeadComponent extends Component {
 				<link rel="dns-prefetch" href="https://cdn.materialdesignicons.com" />
 				{this.props.socialTags && Object.entries(this.props.socialTags).map(getTagElement)}
 				{this.state.loaded && <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@3.9.97/css/materialdesignicons.min.css" />}
-				{this.state.loaded && <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />}
+				{this.state.loaded && <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand&family=Raleway:wght@200&family=Satisfy&display=swap" rel="stylesheet" />}
 			</Head>
 			<Script id="tawktoscriptwrapper" dangerouslySetInnerHTML={{
 				__html: `var Tawk_API=Tawk_API||{ }, Tawk_LoadStart=new Date();
