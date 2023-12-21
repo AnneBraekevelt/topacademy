@@ -25,7 +25,7 @@ import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Product from '../components/specificComponents/Product/Product';
 import Location from '../components/specificComponents/Location/Location';
-import blog from '../components/specificComponents/blog/blog'
+import reviews from '../components/specificComponents/reviews/reviews'
 
 
 const components = {
@@ -47,7 +47,7 @@ const components = {
   imagecarousel: ImageCarousel,
   product: Product,
   location: Location,
-  blog: blog
+  reviews: reviews
 };
 
 storyblokInit({
